@@ -1,0 +1,26 @@
+### Post "Hello!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Whinnie the Pooh"
+}
+
+### Post "Bonjour!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "50 Shades of Grey"
+}
+
+### Post "Privet!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Kotlin for Dummies"
+}
+
+### Get all the messages
+GET http://localhost:8080/
