@@ -23,3 +23,8 @@ This project is for my own learning. My next goals with this project are to
 * separate and host a db
 * provide a frontend ui
 
+*************
+#### Git note
+After managing to accidentally remove a few weeks of commit history, going to be much more careful with `Fatal: refusing to merge unrelated histories ` errors/warnings from now on... 
+Potential alternative: `
+git pull myapp master –allow-unrelated-histories`
