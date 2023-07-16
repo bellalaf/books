@@ -1,6 +1,8 @@
 # Books
 
 ### The project
+Tech: Kotlin (JDK17), Springboot
+
 This app can be run locally and allows a user to upload and view their reading habits. It is a WIP.
 
 ### How to use (CLI)
@@ -8,11 +10,11 @@ This app can be run locally and allows a user to upload and view their reading h
 * Go to `http://localhost:8080/` in your browser to see the books currently in memory.
 * To add some, run the add script: `./addBooks.sh`
 * To delete books: `./deleteAll.sh`
-* To import a csv goodreads export file: `./import.sh`
+* To import a csv goodreads export file, go to `http://localhost:8080/import-demo`
 
 Note: If getting permission issues running the scripts, use `chmod +x <script_name.sh>`
 
-You can  export a copy of your [goodreads history](https://www.goodreads.com/review/import) and import that using `./import.sh <$filename.csv>`
+Coming soon: You can export a copy of your [goodreads history](https://www.goodreads.com/review/import) and import that using `./import.sh <$pathTofile/filename.csv>`
 
 ### Future Roadmap
 
